@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+    <h1>
+        My Hobbies
+    </h1>
+    <ol>
+        <li>video games</li>
+        <li>reading</li>
+        <li>gym</li>
+    </ol>
+    <h1>
+        My Interests
+    </h1>
+    <ol>
+    <li>dc comics</li>
+    <li>music</li>
+    <li>rick owens</li>
+    </ol>
+    <!-- relative link -->
+    <img src="images/rick.webp" 
+    height = "600"
+    width="500"/>
+    <p> this is mr rick owens&copy;</p>
+    <img src="https://www.indiewire.com/wp-content/uploads/2021/08/Robert-Pattinson-Batman.jpeg?resize=800,581">
+    <p>this is batgoat</p> 
+    <p> tell me about yourself:</p>
+    <form>
+        <form>
+            <label for="name">Your name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="hobbies">Hobbies and Interests:</label><br>
+            <input type="text" id="hobbies" name="hobbies">
+            <input type="submit">
+          </form>
+    </form>
+    <h2>
+        More:
+    </h2>
+    <p>  <a href="skills.html">How to</a></p> </p>
+    <p>  <a href="spots.html">NYC</a></p></p>
+
+    <div style="text-align:center"> 
+        <p> cool video I found: </p>
+        <video id="vid" width="420">
+          <source src="Videos/vid.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+        <script>
+            var vid = document.getElementById("vid")
+        </script>
+        <br>
+        <button onclick="vid.play()">Play</button> 
+        <button onclick="vid.pause()">Pause</button>
+        <p> this is where I found this <a href="https://www.pexels.com/video/a-woman-aiming-a-gun-7322342/" target="-blank">website</a> </p>
+
+      </div> 
+</body>
